@@ -5,155 +5,178 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header container">
-        <img src="./img/Group 159.png" alt="">
-        <a href="#">antools.</a>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">My Collections</a></li>
-                <li><a href="#">Blog</a></li>
+        <img class="header-logo" src="./img/Group 159.png" alt="">
+            <a class="header-link" href="#">antools.</a>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item"><a class="nav-item-link" href="#">Home</a></li>
+                    <li class="header-nav-item"><a class="nav-item-link" href="#">Categories</a></li>
+                    <li class="header-nav-item"><a class="nav-item-link" href="#">My Collections</a></li>
+                    <li class="header-nav-item"><a class="nav-item-link" href="#">Blog</a></li>
+                </ul>
+            </nav>
+            <ul class="login-list">
+                <li class="header-list-item"><a class="item-link-joinus" href="#">Login</a></li>
+                <li class="header-list-item"><a class="item-link-login" href="#">Sign up</a></li>
             </ul>
-            <ul>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Sign up</a></li>
-            </ul>
-        </nav>
     </header>
-    <main class="main container">
-        <section class="container">
-            <h1>Awesome tools for
-                Designer & Developer.</h1>
-                <p>Antool is a web collection of information on paid or free Design and Development tools</p>
-                <form>
-                    <label>
-                        <input type="text" placeholder="find more than 430+ tools...">
-                    </label>
-                    <button type="submit">Search</button>
-                </form>
-            <img src="./img/Illustration.svg" alt="">
-            <img src="./img/1bx_bxl-facebook.png" alt="">
-            <img src="./img/2bx_bxl-instagram.svg" alt="">
-            <img src="./img/3bx_bxl-twitter.png" alt="">    
+    <main>
+        <section class="Developer container">
+            <div class="Developer-div">
+                <h1 class="Developer-title">Awesome tools for <br>
+                    Designer & Developer <span class="Developer-point">.</span></h1>
+                    <p class="Developer-text">Antool is a web collection of information on paid or <br> free Design and Development tools</p>
+                    <form class="bunner-form">
+                        <div class="bunner-input-wrap">
+                            <input
+                            type="text"
+                            class="bunner-input"
+                            placeholder="find more than 430+ tools..."
+                            />
+                            <button type="button" class="bunner-btn">Search</button>
+                        </div>
+                    </form>
+                    <img class="Developer-img" src="./img/1bx_bxl-facebook.png" alt="">
+                    <img class="Developer-img" src="./img/2bx_bxl-instagram.svg" alt="">
+                    <img class="Developer-img" src="./img/3bx_bxl-twitter.png" alt="">    
+                </div>
+                <div class="Developer-ilustration">
+                    <img class="Developer-img-ilustration" src="./img/Illustration.svg" alt="">
+                </div>
         </section>
-        <section class="container">
-        <h2>Most Popular Tools</h2>
-        <p>Tools for the best Designers and Developers
+        <section class=" popular container">
+        <h2 class="popular-title">Most Popular Tools</h2>
+        <p class="popular-text">Tools for the best Designers and Developers
             most popularly used in the world</p>
-            <ul>
-                <li>
-                <img src="./img/1grommet-icons_figma.png" alt="">
-                <h3>FIGMA</h3>
-                <h5>Free</h5>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <ul class="popular-list">
+                <li class="popular-item">
+                <img class="popular-img" src="./img/1grommet-icons_figma.png" alt="">
+                <h3 class="popular-item-title">FIGMA</h3>
+                <h4 class="popular-item-subtitle">Free</h4>
+                 <p class="popular-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
             </li>
-            <li>
-                <img src="./img/2logos_sketch.png" alt="">
-                <h3>Sketch</h3>
-                <h5>Trial & Paid</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <li class="popular-item">
+                <img class="popular-item-img" src="./img/2logos_sketch.png" alt="">
+                <h3 class="popular-item-title">Sketch</h3>
+                <h4 class="popular-item-subtitle">Trial & Paid</h4>
+                <p class="popular-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
             </li>
-            <li>
-                <img src="./img/3logos_visual-studio-code.png" alt="">
-                <h3>Visual Studio Code</h3>
-                <h5>Free</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <li class="popular-item">
+                <img class="popular-item-img" src="./img/3logos_visual-studio-code.png" alt="">
+                <h3 class="popular-item-title">Visual Studio Code</h3>
+                <h4 class="popular-item-subtitle">Free</h4>
+                <p class="popular-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
             </li>
-            <li>
-                <img src="./img/4notion.png" alt="">
-                <h3>Notion</h3>
-                <h5>Trial & Paid</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <li class="popular-item">
+                <img class="popular-item-img" src="./img/4notion.png" alt="">
+                <h3 class="popular-item-title">Notion</h3>
+                <h4 class="popular-item-subtitle">Trial & Paid</h4>
+                <p class="popular-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
             </li>
-            <li>
-                <img src="./img/5grommet-icons_slack.png" alt="">
-                <h3>Slack</h3>
-                <h5>Trial & Paid</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <li class="popular-item">
+                <img class="popular-item-img" src="./img/5grommet-icons_slack.png" alt="">
+                <h3 class="popular-item-title">Slack</h3>
+                <h4 class="popular-item-subtitle">Trial & Paid</h4>
+                <p class="popular-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
             </li>
-            <li>
-                <img src="./img/6logos_invision-icon.png" alt="">
-                <h3>Invision</h3>
-                <h5>Trial & Paid</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <li class="popular-item"></li>
+                <img class="popular-item-img" src="./img/6logos_invision-icon.png" alt="">
+                <h3 class="popular-item-title">Invision</h3>
+                <h4 class="popular-item-subtitle">Trial & Paid</h4>
+                <p class="popular-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
                 </li>
             </ul>
-            <button>Load more</button>
+            <button class="popular-btn">Load more</button>
         </section>
-        <section>
-            <h2>Trusted more than 150+ brand</h2>
-            <ul>
-                <li><img src="./img/logos_microsoft.png" alt=""></li>
-                <li><img src="./img/logos_google.png" alt=""></li>
-                <li><img src="./img/logos_slack.png" alt=""></li>
-                <li><img src="./img/logos_wordpress.png" alt=""></li>
+        <section class="logs container">
+            <h2 class="logs-title">Trusted more than 150+ brand</h2>
+            <ul class="logs-list">
+                <li class="logs-item"><img class="logs-img" src="./img/logos_microsoft.png" alt=""></li>
+                <li class="logs-item"><img class="logs-img" src="./img/logos_google.png" alt=""></li>
+                <li class="logs-item"><img class="logs-img" src="./img/logos_slack.png" alt=""></li>
+                <li class="logs-item"><img class="logs-img" src="./img/logos_wordpress.png" alt=""></li>
             </ul>
         </section>
-        <section>
-            <h2>Newcomer Tools</h2>
-            <p>Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
-            <button>Explore more</button>
-            <ul>
-                <li>
-                    <img src="./img/zeplin.png" alt="">
-                    <h3>Zeplin</h3>
-                    <h5>Free & Paid</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <section class="tools container">
+            <h2 class="tools-title">Newcomer Tools</h2>
+            <p class="tools-text">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
+            <button class="tools-btn">Explore more</button>
+            <ul class="tools-list">
+                <li class="tools-item">
+                    <img class="tools-item-img" src="./img/zeplin.png" alt="">
+                    <h3 class="tools-item-title">Zeplin</h3>
+                    <h4 class="tools-item-subtitle">Free & Paid</h4>
+                    <p class="tools-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <img src="" alt="">
                     <img src="" alt="">
                     <img src="" alt="">
                 </li>
-                <li>
-                    <img src="./img/Group.png" alt="">
-                    <h3>PHPStorm</h3>
-                    <h5>Free</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <li class="tools-item">
+                    <img class="tools-item-img" src="./img/Group.png" alt="">
+                    <h3 class="tools-item-title">PHPStorm</h3>
+                    <h4 class="tools-item-subtitle">Free</h4>
+                    <p class="tools-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <img src="" alt="">
                     <img src="" alt="">
                     <img src="" alt="">
                 </li>
-                <li>
-                    <img src="./img/jb_toolbox_app.png" alt="">
-                    <h3>Toolbox</h3>
-                    <h5>Free</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <li class="tools-item">
+                    <img class="tools-item-img" src="./img/jb_toolbox_app.png" alt="">
+                    <h3 class="tools-item-title">Toolbox</h3>
+                    <h4 class="tools-item-subtitle">Free</h4>
+                    <p class="tools-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <img src="" alt="">
                     <img src="" alt="">
                     <img src="" alt="">
                 </li>
-                <li>
-                    <img src="./img/procreate.png" alt="">
-                    <h3>Procreate</h3>
-                    <h5>Paid</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <li class="tools-item">
+                    <img class="tools-item-img" src="./img/procreate.png" alt="">
+                    <h3 class="tools-item-title">Procreate</h3>
+                    <h4 class="tools-item-subtitle">Paid</h4>
+                    <p class="tools-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <img src="" alt="">
                     <img src="" alt="">
                     <img src="" alt="">
                 </li>
             </ul>
         </section>
+
+
+
+
+
+
+
+
+
+
+
+
         <section>
         <img src="./img/david-suarez-4a1nNlrS5ZI-unsplash.png" alt="">
         <ul>
@@ -168,39 +191,59 @@
         </ul>
         <p>Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
         </section>
-        <section>
-            <h2>Become a contributor?</h2>
-            <p>Join us and get tips & tricks to become a great Designer and Developer</p>
-            <form >
-                <label>
-                    <input type="text" placeholder="Enter your email...">
-                </label>
-                <button type="submit">Join Us</button>
-            </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="joinus">
+            <h2 class="joinus-title">Become a contributor?</h2>
+            <p class="joinus-text">Join us and get tips & tricks to become a great Designer and Developer</p>
+            <form class="bunner-form">
+                <div class="bunner-input-wrap">
+                  <input
+                            type="text"
+                            class="bunner-input"
+                            placeholder="Enter your email..."
+                          />
+                  <button type="button" class="bunner-btn">Join Us</button>
+                        </div>
+                      </form>
         </section>
     </main>
-    <footer class="footer">
-        <img src="./img/Group 159 (1).png" alt="">
-        <a href="#">antools.</a>
-        <h3>Copyright 2021. Antools</h3>
-        <p>Antool is a web collection of information on paid or free Design and Development tools</p>
-        <ul>
-            <li><h3>Contact Us</h3></li>
-          <li><a href="#">+621987463</a></li>
-          <li><a href="#">M Building, No.10 A</a></li>
-          <li><a href="#">antools@awesome.com</a></li>
+    <footer class="footer container">
+        <img class="footer-logo" src="./img/Group 159 (1).png" alt="">
+        <a class="footer-link" href="#">antools.</a>
+        <h2 class="footer-title">Copyright 2021. Antools</h2>
+        <p class="footer-text">Antool is a web collection of information on paid or free Design and Development tools</p>
+        <ul class="footer-list">
+            <li class="footer-item"><h2 class="footer-item-nav-title">Contact Us</h2></li>
+          <li class="footer-item"><a class="footer-item-link" href="#">+621987463</a></li>
+          <li class="footer-item"><a class="footer-item-link" href="#">M Building, No.10 A</a></li>
+          <li class="footer-item"><a class="footer-item-link" href="#">antools@awesome.com</a></li>
         </ul>
-        <nav>
-            <ul>
-                <li><h3>Categories</h3></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Development</a></li>
+        <nav class="footer-nav">
+            <ul class="footer-nav-list">
+                <li class="footer-nav-item"><h2 class="footer-item-nav-title">Categories</h2></li>
+                <li class="footer-nav-item"><a class="footer-nav-item-link" href="#">Design</a></li>
+                <li class="footer-nav-item"><a class="footer-nav-item-link" href="#">Development</a></li>
             </ul>
-            <ul>
-                <li><h3>Company Info</h3></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Partners</a></li>
-                <li><a href="#">Blog</a></li>
+            <ul class="footer-list">
+                <li class="footer-item"><h2 class="footer-item-nav-title">Company Info</h2></li>
+                <li class="footer-item"><a class="footer-item-link" href="#">About Us</a></li>
+                <li class="footer-item"><a class="footer-item-link" href="#">Our Partners</a></li>
+                <li class="footer-item"><a class="footer-item-link" href="#">Blog</a></li>
             </ul>
         </nav>
     </footer>
