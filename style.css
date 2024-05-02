@@ -299,6 +299,9 @@ line-height: normal;
     background: #FF6E30;
 }
 .popular-btn {
+  display: block;
+  width: 184px;
+  margin: 0 auto;
   padding: 17px 35px;
     border-radius: 8px;
 border: 1px solid rgba(255, 255, 255, 0.10);
@@ -308,6 +311,7 @@ font-weight: 500;
 line-height: normal;
 margin-top: 100px;
     margin-bottom: 200px;
+
 }
 .logs {
     border-radius: 25px;
@@ -341,6 +345,7 @@ margin-bottom: 55px;
 .tools {
     display: flex;
     justify-content: space-between;
+    gap: 197px;
 }
 .tools-title {
     color: rgba(255, 255, 255, 0.90);
@@ -452,31 +457,28 @@ line-height: normal;
 padding-top: 128px;
 padding-right: 188px;
 }
+.decoration{
+  background-image: url(./img/“.png);
+  font-family: Lora;
+font-size: 250px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 .team-content{
     background-image: url(./img/team-man.png);
 background-repeat: no-repeat;
 background-size: contain;
 height: 490px;
 display: flex;
+margin-right: 155px;
 justify-content: flex-end;
 }
-.team-btn{
-width: 48px;
-height: 48px;
-justify-content: flex-start;
-padding: 16px 26px;
-margin-top: 14;
-background: transparent;
-
-}
-.btn-img{
-
-}
-
 .team-text{
     color: rgba(255, 255, 255, 0.78);
 font-family: Roboto;
 font-size: 14px;
+margin-top: 125px;
 font-weight: 400;
 line-height: 30px; /* 214.286% */
 letter-spacing: 0.21px;
@@ -503,6 +505,8 @@ line-height: 30px; /* 166.667% */
 margin-bottom: 100px;
 }
 .joinus-bunner-form{
+  width: 500px;
+  margin: 0 auto;
   margin-bottom: 240px;
 }
 .joinus-bunner-input-wrap {
@@ -514,7 +518,7 @@ margin-bottom: 100px;
     border-radius: 15px;
     border: 1.5px solid rgba(255, 255, 255, 0.1);
     background-color: #283036;
-    padding-left: 55px;
+    padding-left: 24px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 11px;
